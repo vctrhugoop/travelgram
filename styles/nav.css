@@ -1,0 +1,28 @@
+.surface {
+  background-color: var(--surface-color);
+}
+
+nav {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#menu li:last-child img {
+  width: 40px;
+  height: 40px;
+}
+
+#menu li a:hover {
+  text-decoration: underline;
+  color: var(--brand-color);
+}

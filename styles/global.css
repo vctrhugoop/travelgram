@@ -28,3 +28,16 @@ body {
   color: var(--text-color-secondary);
   background-color: var(--bg-color);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-inline: 32px;
+}
