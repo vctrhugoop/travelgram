@@ -3,8 +3,6 @@
 }
 
 nav {
-  max-width: 1280px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +18,9 @@ nav {
 #menu li:last-child img {
   width: 40px;
   height: 40px;
+
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 #menu li a:hover {
