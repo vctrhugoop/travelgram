@@ -1,0 +1,13 @@
+.photo-gallery {
+  padding-block: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.photo-gallery img {
+  width: 286px;
+  height: 286px;
+  
+  object-fit: cover;
+}
